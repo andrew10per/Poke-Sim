@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.pickScreen">
+   <children>
+      <TextField fx:id="userInpBox" layoutX="88.0" layoutY="188.0" promptText="Type User Here..." />
+      <TextField fx:id="enemyInpBox" layoutX="344.0" layoutY="188.0" promptText="Type Enemy Here..." />
+      <Label layoutX="88.0" layoutY="112.0" prefHeight="50.0" prefWidth="149.0" text="User Pokemon ID Number (1-151)" textAlignment="CENTER" textFill="#f50808" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="344.0" layoutY="112.0" prefHeight="50.0" prefWidth="149.0" text="Enemy Pokemon ID Number (1-151)" textAlignment="CENTER" textFill="#f50808" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="battleBut" layoutX="209.0" layoutY="247.0" mnemonicParsing="false" onAction="#goToBattle" prefHeight="112.0" prefWidth="183.0" style="-fx-border-color: Blue; -fx-background-color: teal;" text="Battle" textAlignment="CENTER" textFill="#07ee54">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
